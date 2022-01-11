@@ -1,0 +1,61 @@
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
+
+h1{
+    background-color: royalblue;
+}
+
+#show_sketch{
+    float: right;
+    margin: 2.5px;
+}
+
+.btn-secondary{
+    color: #333;
+}
+
+p{
+    font-size: 20px;
+}
+
+#doyou{
+    color: red;
+}
+
+#score{
+    float: left;
+}
+
+#time{
+    float: right;
+}
+
+#time,#score{
+    margin: 50px;
+    font-size: 25px;
+}
+
+canvas{
+    margin-top: 100px;
+    border-radius: 40px;
+    border: royalblue solid 3px;
+    animation: fames 4s infinite;
+}
+
+@keyframes fames{
+    25%{
+        box-shadow: 1px 1px 40px #05445E;
+    }
+    50%{
+        box-shadow: 1px 1px 40px #189AB4;
+    }
+    75%{
+        box-shadow: 1px 1px 40px #75E6DA;
+    }
+    100%{
+        box-shadow: 1px 1px 40px #D4F1F4;
+    }
+}
+
